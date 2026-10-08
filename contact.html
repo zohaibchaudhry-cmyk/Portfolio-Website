@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me - My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)">
+<link rel="stylesheet" href="tablet.css" media="screen and (min-width: 601px) and (max-width: 1024px)">
+<link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1025px)">
+</head>
+<body>
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact Me</a>
+</nav>
+    <h1>Contact Me</h1>
+    <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="Enter a 10-digit phone number" required>
+<label for="comments">Comments:</label>
+<textarea id="comments" name="comments" rows="4" required></textarea>
+<button type="submit">Submit</button>
+</form>
+<footer>
+    <p>Copyright 2026 - My Portfolio</p>
+    <p>Email: zohaib.chaudhry@ontariotechu.net</p>
+</footer>
+</body>
+</html>

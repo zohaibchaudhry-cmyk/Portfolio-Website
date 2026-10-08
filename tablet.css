@@ -1,0 +1,13 @@
+body {
+    margin: 3%;
+}
+
+nav a {
+    display: inline-block;
+    margin: 10px;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}

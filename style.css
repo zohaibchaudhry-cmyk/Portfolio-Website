@@ -1,0 +1,47 @@
+body {
+    background-color: #f5f7fa;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+h1 {
+    color: #305780;
+    text-align: center;
+    font-size: 32px;
+}
+nav {
+    background-color: #305780;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+h2 {
+    color: #305780;
+    font-size: 24px;
+    margin-top: 25px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 15px;
+}
+footer {
+    background-color: #305780;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+header {
+    background: linear-gradient(90deg, #305780, #78a6d1);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background: linear-gradient(135deg, #305780, #78a6d1);
+}
